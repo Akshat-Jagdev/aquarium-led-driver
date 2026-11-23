@@ -1,0 +1,45 @@
+** Drc report for aquarium_v0_board3.kicad_pcb **
+** Created on 2026-09-14T00:26:59 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[shorting_items]: Items shorting two nets (nets +12V and +24V)
+    Local override; error
+    @(324.4600 mm, 18.5500 mm): PTH pad 2 [+12V] of J11
+    @(324.4600 mm, 18.5500 mm): Track [+24V] on F.Cu, length 16.3500 mm
+[shorting_items]: Items shorting two nets (nets +24V and +12V)
+    Local override; error
+    @(393.2600 mm, 18.5500 mm): Track [+24V] on F.Cu, length 16.3500 mm
+    @(393.2600 mm, 18.5500 mm): PTH pad 2 [+12V] of J12
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(324.4600 mm, 18.5500 mm): Track [+24V] on F.Cu, length 16.3500 mm
+    @(324.4600 mm, 18.5500 mm): PTH pad 2 [+12V] of J11
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(393.2600 mm, 18.5500 mm): Track [+24V] on F.Cu, length 16.3500 mm
+    @(393.2600 mm, 18.5500 mm): PTH pad 2 [+12V] of J12
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(341.2000 mm, 9.0500 mm): Track [Net-(U3-SW)] on F.Cu, length 6.1625 mm
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(324.4600 mm, 18.5500 mm): PTH pad 2 [+12V] of J11
+    @(393.2600 mm, 18.5500 mm): PTH pad 2 [+12V] of J12
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

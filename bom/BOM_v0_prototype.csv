@@ -1,0 +1,37 @@
+Part,Description,Quantity,Unit_Price_INR,Line_Total_INR,Package,Manufacturer,MPN,LCSC_or_Supplier,Supplier_Link,Notes
+LUXEON_5050_HE_Plus_5700K,White LED 5700K CRI70 200mA,12,0,0,5050,Lumileds,L150-5770500600HH0,Already owned,Mouser https://www.mouser.in/ProductDetail/Lumileds/L150-5770500600HH0,White channel LEDs (already ordered)
+LUXEON_2835_Red_625nm,Red LED 625nm 120mA,4,0,0,2835,Lumileds,L128-RED10035000002835,Already owned,Mouser https://www.mouser.in/ProductDetail/Lumileds/L128-RED10035000002835,Red channel LEDs (already ordered)
+LUXEON_Rubix_RoyalBlue_448nm,Royal Blue LED 448nm 700mA,2,0,0,Rubix,Lumileds,L1RX-RYL1000000000,Already owned,Lumileds https://lumileds.com/products/rgbw/leds/royal-blue/,Blue channel LEDs (already ordered)
+LUXEON_SunPlus_2835_660nm,Deep Red LED 660nm 140mA,2,0,0,2835,Lumileds,L1SP-DRD0002800000,Already owned,Lumileds https://lumileds.com/products/horticulture-leds/sunplus-series/,Deep-red channel LEDs (already ordered)
+AL8860W6-7,40V 1.5A Buck LED Driver SOT23-6,7,28,196,SOT23-6,Diodes Inc,AL8860W6-7,LCSC,C460356,Driver IC
+SS3100,100V 3A Schottky Diode SMA,7,18,126,SMA,Diodes Inc / Vishay,SS3100-E3,LCSC,C2480,Freewheel diode - DO NOT use SS24
+Wurth_7447783680,68uH 0.95A Shielded Power Inductor,7,45,315,SMD,Wurth,7447783680,LCSC,C184706,WE-PD series
+Murata_22uF_50V_1210,22uF 50V X7R Ceramic Capacitor,7,18,126,1210,Murata,GRM32ER71H226KE15L,LCSC,C13753,Input bypass - large case for DC-bias
+100nF_0603,100nF 50V X7R Ceramic Capacitor,20,1,20,0603,Samsung,CL10B104KB8NFNC,LCSC,C346191,Local bypass
+1uF_0805,1uF 50V X7R Ceramic Capacitor,7,2,14,0805,Samsung,CL21B105KBFNNNE,LCSC,C28323,AMS1117 in/out + optional CS filter
+WSL2512R4000FEA,0.40 Ohm 1% 1W 2512 Current Sense,4,18,72,2512,Vishay Dale,WSL2512R4000FEA,LCSC,C2990117,White string RSET
+WSL2512R8200FEA,0.82 Ohm 1% 1W 2512 Current Sense,2,18,36,2512,Vishay Dale,WSL2512R8200FEA,LCSC,C2990150,Red and Deep-Red RSET
+WSL2512R3300FEA,0.33 Ohm 1% 1W 2512 Current Sense,1,18,18,2512,Vishay Dale,WSL2512R3300FEA,LCSC,C2990101,Blue string RSET
+Resistor_1k_0603,1k Ohm 1% 0603,4,1,4,0603,Yageo,RC0603FR-071KL,LCSC,C25804,ESP32 GPIO series resistor
+Resistor_100k_0603,100k Ohm 1% 0603,4,1,4,0603,Yageo,RC0603FR-07100KL,LCSC,C25866,CTRL pin pull-down
+UPW1H221MPD,220uF 50V Electrolytic Capacitor,1,25,25,Radial,Nichicon,UPW1H221MPD,Element14 / Mouser,Local,Bulk input cap
+0215002.MXP,2A 250V Slow-Blow Fuse 5x20mm,1,10,10,5x20mm,Littelfuse,0215002.MXP,LCSC,C190099,Overcurrent protection
+Fuse_clip,PCB Mount 5x20mm Fuse Clip,2,5,10,TH,Keystone,3527,LCSC,C92413,Replaceable fuse
+ESP32-C3_SuperMini,ESP32-C3 Development Board,1,250,250,Module,Espressif,ESP32-C3 SuperMini,Robu / Amazon IN,Already owned,Controller
+LRS-35-24,24V 1.5A 36W AC-DC PSU,1,450,450,Enclosed,Mean Well,LRS-35-24,ConvertersIndia,Already owned,External PSU
+IRM-02-5,24V to 5V Isolated DC-DC Converter,1,150,150,Module,Mean Well,IRM-02-5,Element14 / Mouser,Power for ESP32
+LM2596_module,24V to 12V Buck Converter Module (LM2596S preset to 12.0V),1,70,70,Module,Generic,LM2596S module,Robu,https://robu.in/product/lm2596s-dc-dc-buck-converter-power-supply/,U10 +12V rail for colour channels - set pot to 12.0V before install
+C12V_22uF_1210,+12V rail decoupling capacitor C12V,1,18,18,1210,Murata,GRM32ER71H226KE15L,LCSC,C13753,Schematic 10uF - 22uF fitted (same 1210 MPN already sourced; better DC-bias margin)
+AMS1117-3.3,3.3V LDO Regulator SOT223,1,10,10,SOT223,Diodes,AMS1117-3.3,LCSC,C6186,5V to 3.3V for ESP32
+Barrel_jack,2.1mm DC Panel Mount Jack,1,30,30,Panel,Generic,CP-20235NH,Robu / Amazon IN,PSU input
+Rocker_switch,SPST 3A Panel Rocker Switch,1,25,25,Panel,Marquardt,1801.1101,Robu,Main power switch
+Aluminium_extrusion,3-inch C-channel Aluminium Profile,1,400,400,Cut,Generic,Local_hardware,Local,Heatsink and housing - 600mm length
+Aluminium_MCPCB,LED MCPCB 140x20mm 5-LED array (2 designs x2),4,120,480,PCB,Custom,2 designs,India / JLCPCB,LED mounting
+Thermal_pad,3W/mK Thermal Interface Pad,1,100,100,Sheet,Bergquist / Generic,GP1500,Robu,MCPCB to extrusion
+Acrylic_diffuser,Integrated Opal Diffuser,0,0,0,Sheet,Generic,Included,Included,Included in C-channel profile
+End_caps,Aluminium or 3D Printed End Caps,2,30,60,Custom,Custom,Local,Local,Sealing and finish
+Mounting_brackets,Stainless Steel Adjustable Brackets,2,80,160,Bracket,Generic,Aquarium_supplier,Local,Tank mounting
+PCB_V0,2-layer 1oz copper PCB,1,150,150,PCB,Custom,JLCPCB / PCBWay,Online,Main driver PCB
+Solder_consumables,Solder paste wire flux,1,50,50,NA,Generic,Local,Local,Assembly consumables
+Wiring,22AWG silicone wire assorted,1,100,100,Spool,Generic,Local,Local,Internal wiring
+TOTAL,,,,3679,,,,,

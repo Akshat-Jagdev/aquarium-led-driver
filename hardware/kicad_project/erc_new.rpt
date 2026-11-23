@@ -1,0 +1,1503 @@
+ERC report (2026-09-14T00:18:30, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(800.00 mm, 4000.00 mm): Symbol #PWR0010 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(800.00 mm, 4000.00 mm): Symbol #PWR0010 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(800.00 mm, 4200.00 mm): Symbol #PWR0009 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(800.00 mm, 4200.00 mm): Symbol U10 Pin 1 [+VIN, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(800.00 mm, 4200.00 mm): Symbol #PWR0009 [+24V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(1200.00 mm, 4500.00 mm): Symbol U10 [BUCK_12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0001 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0002 Pin 1 [PWR_FLAG, Power output, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0001 [GND]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0002 [PWR_FLAG]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Symbol J1 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Symbol J1 [Conn_01x02]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7000.00 mm): Symbol #PWR0027 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(1500.00 mm, 7000.00 mm): Symbol #PWR0027 [+3V3]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7100.00 mm): Symbol #PWR0026 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1500.00 mm, 7100.00 mm): Symbol #PWR0026 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Symbol J6 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Symbol J6 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1600.00 mm, 4000.00 mm): Symbol #PWR0012 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1600.00 mm, 4000.00 mm): Symbol #PWR0012 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1600.00 mm, 4200.00 mm): Symbol #PWR0011 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(1600.00 mm, 4200.00 mm): Symbol #PWR0011 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mm, 4000.00 mm): Symbol #PWR0016 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1700.00 mm, 4000.00 mm): Symbol #PWR0016 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mm, 4200.00 mm): Symbol #PWR0015 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(1700.00 mm, 4200.00 mm): Symbol #PWR0015 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4200.00 mm): Symbol U8 Pin 1 [+VIN, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2000.00 mm, 4100.00 mm): Symbol #PWR0013 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(2000.00 mm, 4100.00 mm): Symbol #PWR0013 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2000.00 mm, 4200.00 mm): Symbol #PWR0014 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2000.00 mm, 4200.00 mm): Symbol C12V Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2000.00 mm, 4200.00 mm): Symbol C12V [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2000.00 mm, 4200.00 mm): Symbol #PWR0014 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Symbol F1 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Symbol F1 [Fuse]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2200.00 mm, 4500.00 mm): Symbol U8 [IRM-02-5]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6200.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Symbol R4 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Symbol R4 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6600.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Symbol R3 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Symbol R3 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Symbol R2 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Vertical Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Symbol R2 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Symbol R1 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Vertical Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Symbol R1 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600.00 mm, 4000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2700.00 mm, 4000.00 mm): Symbol #PWR0018 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2700.00 mm, 4000.00 mm): Symbol #PWR0018 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2700.00 mm, 4200.00 mm): Symbol #PWR0017 Pin 1 [+5V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+5V' doesn't match copy in library 'power'
+    ; warning
+    @(2700.00 mm, 4200.00 mm): Symbol #PWR0017 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0003 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0004 Pin 1 [PWR_FLAG, Power output, Line]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0004 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0003 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Symbol J7 Pin 1 [1, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Symbol J7 [Conn_01x02]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 10900.00 mm): Symbol #PWR0090 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3000.00 mm, 10900.00 mm): Symbol #PWR0090 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 11000.00 mm): Symbol #PWR0089 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3000.00 mm, 11000.00 mm): Symbol #PWR0089 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 11200.00 mm): Symbol J8 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3000.00 mm, 11200.00 mm): Symbol #PWR0088 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3000.00 mm, 11200.00 mm): Symbol J8 [Conn_01x12]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(3000.00 mm, 11200.00 mm): Symbol #PWR0088 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4100.00 mm): Symbol #PWR0019 Pin 1 [+5V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+5V' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 4100.00 mm): Symbol #PWR0019 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol C3 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol #PWR0020 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol C3 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol #PWR0020 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6200.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol R8 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol #PWR0031 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol R8 [R]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol #PWR0031 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6600.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol #PWR0030 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol R7 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol R7 [R]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol #PWR0030 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol #PWR0029 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol R6 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol R6 [R]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol #PWR0029 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol #PWR0028 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol R5 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol R5 [R]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol #PWR0028 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3400.00 mm, 4200.00 mm): Symbol #PWR0021 Pin 1 [+5V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+5V' doesn't match copy in library 'power'
+    ; warning
+    @(3400.00 mm, 4200.00 mm): Symbol #PWR0021 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3500.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2400.00 mm): Symbol #PWR0005 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(3600.00 mm, 2400.00 mm): Symbol #PWR0005 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol C1 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol #PWR0006 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol C1 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol #PWR0006 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2100.00 mm): Symbol #PWR0036 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(3700.00 mm, 2100.00 mm): Symbol #PWR0036 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol #PWR0037 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol C20 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol C20 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol #PWR0037 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2500.00 mm): Symbol #PWR0038 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(3700.00 mm, 2500.00 mm): Symbol #PWR0038 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol C10 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol #PWR0039 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol C10 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol #PWR0039 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2400.00 mm): Symbol #PWR0007 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2400.00 mm): Symbol C2 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(3900.00 mm, 2400.00 mm): Symbol #PWR0007 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol #PWR0008 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol C2 [CP]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol #PWR0008 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol U9 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol #PWR0023 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol #PWR0023 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3900.00 mm, 4500.00 mm): Symbol U9 [AMS1117]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 2700.00 mm): Symbol #PWR0032 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(4100.00 mm, 2700.00 mm): Symbol #PWR0032 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 2900.00 mm): Symbol #PWR0033 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4100.00 mm, 2900.00 mm): Symbol #PWR0033 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 10900.00 mm): Symbol #PWR0093 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4200.00 mm, 10900.00 mm): Symbol #PWR0093 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 11000.00 mm): Symbol #PWR0092 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4200.00 mm, 11000.00 mm): Symbol #PWR0092 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 11200.00 mm): Symbol J9 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4200.00 mm, 11200.00 mm): Symbol #PWR0091 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4200.00 mm, 11200.00 mm): Symbol J9 [Conn_01x12]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(4200.00 mm, 11200.00 mm): Symbol #PWR0091 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4300.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4400.00 mm, 4200.00 mm): Symbol #PWR0022 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(4400.00 mm, 4200.00 mm): Symbol #PWR0022 [+3V3]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4500.00 mm, 3000.00 mm): Symbol U1 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Symbol J2 Pin 1 [1, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Symbol J2 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4100.00 mm): Symbol #PWR0024 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(4800.00 mm, 4100.00 mm): Symbol #PWR0024 [+3V3]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol #PWR0025 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol C4 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol C4 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol #PWR0025 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 3100.00 mm): Symbol U1 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3000.00 mm): Symbol #PWR0035 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3000.00 mm): Symbol D1 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5050.00 mm, 3000.00 mm): Symbol #PWR0035 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Symbol D1 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2100.00 mm): Symbol #PWR0044 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5200.00 mm, 2100.00 mm): Symbol #PWR0044 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol C21 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol #PWR0045 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol C21 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol #PWR0045 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2500.00 mm): Symbol #PWR0046 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5200.00 mm, 2500.00 mm): Symbol #PWR0046 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol #PWR0047 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol C11 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol C11 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol #PWR0047 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 3100.00 mm): Symbol L1 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 3100.00 mm): Symbol L1 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5400.00 mm, 2600.00 mm): Symbol #PWR0034 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5400.00 mm, 2600.00 mm): Symbol #PWR0034 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5400.00 mm, 2700.00 mm): Symbol R10 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5400.00 mm, 2700.00 mm): Symbol R10 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 10900.00 mm): Symbol #PWR0096 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5500.00 mm, 10900.00 mm): Symbol #PWR0096 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 11000.00 mm): Symbol #PWR0095 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5500.00 mm, 11000.00 mm): Symbol #PWR0095 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 11200.00 mm): Symbol J10 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5500.00 mm, 11200.00 mm): Symbol #PWR0094 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5500.00 mm, 11200.00 mm): Symbol J10 [Conn_01x10]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5500.00 mm, 11200.00 mm): Symbol #PWR0094 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 2700.00 mm): Symbol #PWR0040 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(5600.00 mm, 2700.00 mm): Symbol #PWR0040 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 2900.00 mm): Symbol #PWR0041 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5600.00 mm, 2900.00 mm): Symbol #PWR0041 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6000.00 mm, 3000.00 mm): Symbol U2 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 3100.00 mm): Symbol U2 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Symbol J3 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Symbol J3 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 10900.00 mm): Symbol #PWR0099 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6500.00 mm, 10900.00 mm): Symbol #PWR0099 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 11000.00 mm): Symbol #PWR0098 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6500.00 mm, 11000.00 mm): Symbol #PWR0098 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 11200.00 mm): Symbol J11 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 11200.00 mm): Symbol #PWR0097 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6500.00 mm, 11200.00 mm): Symbol J11 [Conn_01x10]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(6500.00 mm, 11200.00 mm): Symbol #PWR0097 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3000.00 mm): Symbol #PWR0043 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3000.00 mm): Symbol D2 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(6550.00 mm, 3000.00 mm): Symbol #PWR0043 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Symbol D2 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2100.00 mm): Symbol #PWR0052 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(6700.00 mm, 2100.00 mm): Symbol #PWR0052 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol C22 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol #PWR0053 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol C22 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol #PWR0053 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2500.00 mm): Symbol #PWR0054 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(6700.00 mm, 2500.00 mm): Symbol #PWR0054 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol C12 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol #PWR0055 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol C12 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol #PWR0055 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 3100.00 mm): Symbol L2 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 3100.00 mm): Symbol L2 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6900.00 mm, 2600.00 mm): Symbol #PWR0042 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(6900.00 mm, 2600.00 mm): Symbol #PWR0042 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6900.00 mm, 2700.00 mm): Symbol R11 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6900.00 mm, 2700.00 mm): Symbol R11 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 2700.00 mm): Symbol #PWR0048 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(7100.00 mm, 2700.00 mm): Symbol #PWR0048 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 2900.00 mm): Symbol #PWR0049 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7100.00 mm, 2900.00 mm): Symbol #PWR0049 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(7500.00 mm, 3000.00 mm): Symbol U3 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 3100.00 mm): Symbol U3 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 10900.00 mm): Symbol #PWR0102 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8000.00 mm, 10900.00 mm): Symbol #PWR0102 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 11000.00 mm): Symbol #PWR0101 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8000.00 mm, 11000.00 mm): Symbol #PWR0101 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 11200.00 mm): Symbol J12 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8000.00 mm, 11200.00 mm): Symbol #PWR0100 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8000.00 mm, 11200.00 mm): Symbol J12 [Conn_01x10]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8000.00 mm, 11200.00 mm): Symbol #PWR0100 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3000.00 mm): Symbol #PWR0051 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3000.00 mm): Symbol D3 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8050.00 mm, 3000.00 mm): Symbol #PWR0051 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Symbol D3 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2100.00 mm): Symbol #PWR0060 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8200.00 mm, 2100.00 mm): Symbol #PWR0060 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol C23 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol #PWR0061 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol C23 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol #PWR0061 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2500.00 mm): Symbol #PWR0062 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8200.00 mm, 2500.00 mm): Symbol #PWR0062 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol #PWR0063 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol C13 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol C13 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol #PWR0063 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 3100.00 mm): Symbol L3 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 3100.00 mm): Symbol L3 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8400.00 mm, 2600.00 mm): Symbol #PWR0050 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8400.00 mm, 2600.00 mm): Symbol #PWR0050 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8400.00 mm, 2700.00 mm): Symbol R12 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8400.00 mm, 2700.00 mm): Symbol R12 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Symbol J4 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Symbol J4 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 2700.00 mm): Symbol #PWR0056 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(8600.00 mm, 2700.00 mm): Symbol #PWR0056 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 2900.00 mm): Symbol #PWR0057 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8600.00 mm, 2900.00 mm): Symbol #PWR0057 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9000.00 mm, 3000.00 mm): Symbol U4 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10600.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10700.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10800.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 10900.00 mm): Symbol #PWR0105 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(9000.00 mm, 10900.00 mm): Symbol #PWR0105 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 11000.00 mm): Symbol #PWR0104 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(9000.00 mm, 11000.00 mm): Symbol #PWR0104 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 11100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 11200.00 mm): Symbol J13 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9000.00 mm, 11200.00 mm): Symbol #PWR0103 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9000.00 mm, 11200.00 mm): Symbol J13 [Conn_01x10]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(9000.00 mm, 11200.00 mm): Symbol #PWR0103 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 3100.00 mm): Symbol U4 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3000.00 mm): Symbol D4 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3000.00 mm): Symbol #PWR0059 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(9550.00 mm, 3000.00 mm): Symbol #PWR0059 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Symbol D4 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2100.00 mm): Symbol #PWR0068 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(9700.00 mm, 2100.00 mm): Symbol #PWR0068 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol C24 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol #PWR0069 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol C24 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol #PWR0069 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2500.00 mm): Symbol #PWR0070 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(9700.00 mm, 2500.00 mm): Symbol #PWR0070 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol C14 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol #PWR0071 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol C14 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol #PWR0071 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 3100.00 mm): Symbol L4 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 3100.00 mm): Symbol L4 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9900.00 mm, 2600.00 mm): Symbol #PWR0058 Pin 1 [+24V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+24V' doesn't match copy in library 'power'
+    ; warning
+    @(9900.00 mm, 2600.00 mm): Symbol #PWR0058 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9900.00 mm, 2700.00 mm): Symbol R13 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9900.00 mm, 2700.00 mm): Symbol R13 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 2700.00 mm): Symbol #PWR0064 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(10100.00 mm, 2700.00 mm): Symbol #PWR0064 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 2900.00 mm): Symbol #PWR0065 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(10100.00 mm, 2900.00 mm): Symbol #PWR0065 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(10500.00 mm, 3000.00 mm): Symbol U5 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Symbol J5 Pin 1 [1, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Symbol J5 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 3100.00 mm): Symbol U5 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11000.00 mm, 10500.00 mm): Symbol MH1 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11000.00 mm, 10500.00 mm): Symbol MH1 [MountingHole]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3000.00 mm): Symbol D5 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3000.00 mm): Symbol #PWR0067 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(11050.00 mm, 3000.00 mm): Symbol #PWR0067 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Symbol D5 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2100.00 mm): Symbol #PWR0076 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(11200.00 mm, 2100.00 mm): Symbol #PWR0076 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol C25 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol #PWR0077 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol C25 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol #PWR0077 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2500.00 mm): Symbol #PWR0078 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(11200.00 mm, 2500.00 mm): Symbol #PWR0078 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol C15 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol #PWR0079 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol C15 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol #PWR0079 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 3100.00 mm): Symbol L5 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 3100.00 mm): Symbol L5 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11400.00 mm, 2600.00 mm): Symbol #PWR0066 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(11400.00 mm, 2600.00 mm): Symbol #PWR0066 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11400.00 mm, 2700.00 mm): Symbol R14 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11400.00 mm, 2700.00 mm): Symbol R14 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 2700.00 mm): Symbol #PWR0072 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(11600.00 mm, 2700.00 mm): Symbol #PWR0072 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 2900.00 mm): Symbol #PWR0073 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(11600.00 mm, 2900.00 mm): Symbol #PWR0073 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 10500.00 mm): Symbol MH2 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11600.00 mm, 10500.00 mm): Symbol MH2 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12000.00 mm, 3000.00 mm): Symbol U6 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12200.00 mm, 10500.00 mm): Symbol MH3 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12200.00 mm, 10500.00 mm): Symbol MH3 [MountingHole]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 3100.00 mm): Symbol U6 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3000.00 mm): Symbol #PWR0075 Pin 1 [+12V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3000.00 mm): Symbol D6 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(12550.00 mm, 3000.00 mm): Symbol #PWR0075 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Symbol D6 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2100.00 mm): Symbol #PWR0084 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(12700.00 mm, 2100.00 mm): Symbol #PWR0084 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol C26 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol #PWR0085 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol C26 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol #PWR0085 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2500.00 mm): Symbol #PWR0086 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(12700.00 mm, 2500.00 mm): Symbol #PWR0086 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol C16 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol #PWR0087 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol C16 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol #PWR0087 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 3100.00 mm): Symbol L6 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 3100.00 mm): Symbol L6 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12800.00 mm, 10500.00 mm): Symbol MH4 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12800.00 mm, 10500.00 mm): Symbol MH4 [MountingHole]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12900.00 mm, 2600.00 mm): Symbol #PWR0074 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(12900.00 mm, 2600.00 mm): Symbol #PWR0074 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12900.00 mm, 2700.00 mm): Symbol R15 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12900.00 mm, 2700.00 mm): Symbol R15 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 2700.00 mm): Symbol #PWR0080 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(13100.00 mm, 2700.00 mm): Symbol #PWR0080 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 2900.00 mm): Symbol #PWR0081 Pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(13100.00 mm, 2900.00 mm): Symbol #PWR0081 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13400.00 mm, 10500.00 mm): Symbol MH5 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(13400.00 mm, 10500.00 mm): Symbol MH5 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(13500.00 mm, 3000.00 mm): Symbol U7 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 3100.00 mm): Symbol U7 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14000.00 mm, 10500.00 mm): Symbol MH6 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14000.00 mm, 10500.00 mm): Symbol MH6 [MountingHole]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3000.00 mm): Symbol #PWR0083 Pin 1 [+12V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3000.00 mm): Symbol D7 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(14050.00 mm, 3000.00 mm): Symbol #PWR0083 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Symbol D7 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14200.00 mm, 3100.00 mm): Symbol L7 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14200.00 mm, 3100.00 mm): Symbol L7 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14400.00 mm, 2600.00 mm): Symbol #PWR0082 Pin 1 [+12V, Power input, Line]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(14400.00 mm, 2600.00 mm): Symbol #PWR0082 [+12V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14400.00 mm, 2700.00 mm): Symbol R16 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14400.00 mm, 2700.00 mm): Symbol R16 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14600.00 mm, 10500.00 mm): Symbol MH7 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14600.00 mm, 10500.00 mm): Symbol MH7 [MountingHole]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15200.00 mm, 10500.00 mm): Symbol MH8 Pin 1 [Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(15200.00 mm, 10500.00 mm): Symbol MH8 [MountingHole]
+
+ ** ERC messages: 497  Errors 0  Warnings 497
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1,0 +1,16 @@
+Designator,Quantity,LCSC Part #,Description,Package,Unit Price (USD)
+,7,C125330,AL8860WT-7 Buck LED Driver,TSOT-25,0.67
+,7,C717452,SS310 Schottky Diode 100V/3A,SMA,0.10
+,12,C17237739,White 5050 LED (Bridgelux),5050,0.67
+,6,C22447975,Red/Deep Red 2835 LED (JNJ),2835,0.11
+,2,C17694544,Royal Blue 2835 LED (Bridgelux),2835,0.12
+,7,C2929504,Shielded Power Inductor 68uH,S-Inductor,0.36
+,7,C696800,22uF/50V Tantalum Capacitor (KEMET),Case X,3.27
+,14,C478888,100nF/50V X7R Capacitor,0603,0.01
+,7,C29936,1uF/25V X7R Capacitor,0603,0.02
+,1,C365704,220uF/50V Electrolytic Cap (Rubycon),Radial,0.21
+,4,C49164929,0.40 Ohm 1% Resistor,2512,0.08
+,2,C2960726,0.82 Ohm 1% Resistor,2512,0.04
+,1,C49164928,0.33 Ohm 1% Resistor,2512,0.08
+,4,C2907002,1k Ohm Resistor,0603,0.00
+,4,C14675,100k Ohm Resistor,0603,0.00

@@ -1,0 +1,104 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>COLORBOOST — Master Checklist</title>
+<style>
+  @page { size: A4; margin: 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif; color:#111; font-size: 11pt; line-height:1.45; margin:0; }
+  h1 { font-size: 16pt; margin:0 0 2mm; }
+  .sub { color:#555; font-size:9pt; margin-bottom:4mm; }
+  h2 { font-size: 12pt; margin:5mm 0 2mm; padding:1.5mm 2mm; background:#eee; border-left:3mm solid #333; page-break-after:avoid; }
+  ul { list-style:none; padding:0; margin:0 0 2mm; }
+  li { padding:1.2mm 0 1.2mm 8mm; text-indent:-8mm; border-bottom:.3pt dotted #bbb; }
+  li::before { content:"☐  "; }
+  .own { float:right; font-size:8.5pt; color:#666; font-weight:normal; }
+  .warn { color:#b00; font-weight:bold; }
+  .note { font-size:9pt; color:#444; margin:-1mm 0 2mm 0; }
+  .sig { margin-top:5mm; font-size:9.5pt; }
+  .sig span { display:inline-block; border-bottom:.5pt solid #333; width:45mm; margin-right:8mm; }
+  .page { page-break-after:always; }
+  .grid { column-count:2; column-gap:8mm; }
+</style></head>
+<body>
+
+<h1>COLORBOOST — Master Checklist</h1>
+<div class="sub">Print date: 2026-09-30 · Project: ~/Desktop/aquarium_v0 · Manual: DELEGATION-MANUAL.md · Tick as done, initial + date</div>
+
+<div class="page"></div>
+
+<h2>1 · Order &amp; Procurement <span class="own">Owner: Akshat + Procurement Runner (T1.x)</span></h2>
+<ul>
+<li>Upload <b>aquarium_v0_panel_gerbers.zip</b> to TronicsZone — 2-layer, 1.6mm FR4, 1oz Cu, 6/6 mil, HASL-LF, 327.6×42 mm, qty 5–10, NPTH unplated</li>
+<li>Confirm panel order + payment; record order ID &amp; ETA in bom/ORDER_TRACKER.md</li>
+<li><span class="warn">DECIDE: white RSET — 0.47 Ω (213 mA) or 0.50 Ω (200 mA) WSL2512</span></li>
+<li>Sync RSET choice: schematic R10–R13 + bom/ + PARTS_LIST.md (3 places)</li>
+<li>Order components per PARTS_LIST §14 — LCSC (ICs/passives, 7–15 d) incl. chosen RSET</li>
+<li>Order from Robu: LM2596 module (U10), pin headers</li>
+<li>Buy local mechanical: enclosure hardware, wire, connectors</li>
+<li>Set up bom/ORDER_TRACKER.md with all rows (to-order / ordered / received)</li>
+</ul>
+<div class="note">Long-lead gate: LCSC 7–15 d — order these FIRST. Everything bench-related waits on them.</div>
+
+<h2>2 · Pre-Build Bench Prep <span class="own">Owner: Bench Technician (T3.x)</span></h2>
+<ul>
+<li>Boards arrive → verify count vs order; photograph panel before snapping</li>
+<li>Snap boards apart at mouse-bite tabs; file edges smooth</li>
+<li>Visual check each board: exposed copper near holes, scratched mask → photograph &amp; report</li>
+<li>Sort &amp; label components into per-board kits per PARTS_LIST; report shortages</li>
+<li><span class="warn">Preset LM2596 (U10) pot to exactly 12.0 V — BEFORE install</span></li>
+<li>Test gear ready: multimeter, bench supply 24 V/1 A current-limited, log sheets</li>
+</ul>
+
+<h2>3 · Build &amp; Test <span class="own">Owner: Akshat + Bench Tech</span></h2>
+<ul>
+<li>Assemble ONE channel first (follow docs/assembly_guide.md exactly)</li>
+<li>TP-01 single-channel test — targets: white 0.40 Ω→250 mA (or new RSET value), red 0.82 Ω→122 mA, blue 0.33 Ω→303 mA, deep-red 0.82 Ω→122 mA (0.1 V ÷ RSET)</li>
+<li>Watch red / deep-red current error → if off, fix = L6→100 µH, L7→220 µH (ask Akshat)</li>
+<li>Assemble full board; rails: 24 V → 22.6 W / 0.94 A · 12 V → 0.33 A</li>
+<li>TP-02 … TP-07 per test sheet; log same day to hardware/test/TP-XX_log.md</li>
+<li>Thermal soak 2 h at full power — record hottest component &amp; temp</li>
+</ul>
+
+<h2>4 · Delegation &amp; Business <span class="own">Owner: Akshat + Runners</span></h2>
+<ul>
+<li>Print DELEGATION-MANUAL.md; hand role cards to helpers</li>
+<li>Assign roles: Procurement / Content / Bench / Admin — one task ID each to start</li>
+<li>marketing/ set up: CONTENT_CALENDAR.md + audience_notes.md + FAQ.md</li>
+<li>Weekly: run AI biz-ops rollup + review ORDER_TRACKER (15 min)</li>
+<li>Finance: business/finance/2026/ + ledger.md started</li>
+</ul>
+
+<div class="sig">Completed by: <span></span> Checked by: <span></span> Date: <span></span></div>
+
+<div class="page"></div>
+
+<h1>Daily Runner Sheet</h1>
+<div class="sub">One per person per day — 3 min. Hand to Akshat or drop as message.</div>
+
+<h2>Report (max 6 lines)</h2>
+<div class="note" style="font-size:10pt">
+<b>Done:</b> ________________________________<br><br>
+<b>In progress:</b> __________________________ (ETA: ______)<br><br>
+<b>Blocked:</b> ______________________________ (need: ______)<br><br>
+<b>Spent:</b> ₹______ &nbsp; <b>Question:</b> ______________
+</div>
+
+<h2>Standing rules (tick to confirm you read)</h2>
+<ul>
+<li>No spending, orders, emails, or posting without Akshat's written OK</li>
+<li>No edits outside my task's folder; never touch hardware/ designs or firmware</li>
+<li>Bad news reported same day, immediately</li>
+<li>Confused / broken / not in manual → STOP and report</li>
+</ul>
+
+<h2>This week's focus</h2>
+<ul>
+<li>Panel order placed &amp; tracked</li>
+<li>RSET decided &amp; synced everywhere</li>
+<li>LCSC + Robu orders in</li>
+<li>First channel assembled &amp; TP-01 logged</li>
+</ul>
+
+<div class="sig">Name: <span></span> Role: <span></span> Date: <span></span></div>
+
+</body></html>

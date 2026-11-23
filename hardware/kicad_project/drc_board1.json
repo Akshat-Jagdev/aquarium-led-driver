@@ -1,0 +1,61 @@
+** Drc report for aquarium_v0_board1.kicad_pcb **
+** Created on 2026-09-14T00:26:50 **
+** Report includes: Errors, Warnings **
+
+** Found 7 DRC violations **
+[shorting_items]: Items shorting two nets (nets +24V and +12V)
+    Local override; error
+    @(127.1700 mm, 18.5500 mm): Track [+24V] on B.Cu, length 1.4500 mm
+    @(127.1700 mm, 18.5500 mm): PTH pad 2 [+12V] of J8
+[shorting_items]: Items shorting two nets (nets /CTRL_DR and +12V)
+    Local override; error
+    @(73.6000 mm, 6.3500 mm): Track [/CTRL_DR] on F.Cu, length 8.9000 mm
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and +12V)
+    Local override; error
+    @(73.0000 mm, 14.5500 mm): Track [+3V3] on F.Cu, length 11.0500 mm
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(127.1700 mm, 18.5500 mm): Track [+24V] on B.Cu, length 1.4500 mm
+    @(127.1700 mm, 18.5500 mm): PTH pad 2 [+12V] of J8
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(73.0000 mm, 14.5500 mm): Track [+3V3] on F.Cu, length 11.0500 mm
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(73.6000 mm, 6.3500 mm): Track [/CTRL_DR] on F.Cu, length 8.9000 mm
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(132.2000 mm, 9.0500 mm): Track [Net-(U1-SW)] on F.Cu, length 6.1625 mm
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.9200 mm, 5.0000 mm): PTH pad 3 [+12V] of U10
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.9750 mm, 8.5000 mm): Pad 2 [+12V] of C12V on F.Cu
+    @(127.1700 mm, 18.5500 mm): PTH pad 2 [+12V] of J8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.0000 mm, 5.0000 mm): PTH pad 1 [+24V] of U10
+    @(52.0000 mm, 14.2250 mm): Pad 2 [+24V] of C1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

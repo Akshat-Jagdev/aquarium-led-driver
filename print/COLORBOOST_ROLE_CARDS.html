@@ -1,0 +1,118 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>COLORBOOST — Role Cards</title>
+<style>
+  @page { size: A4; margin: 14mm; }
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif; color:#111; font-size: 10.5pt; line-height:1.45; margin:0; }
+  h1 { font-size: 15pt; margin:0 0 1mm; }
+  .mission { background:#eee; border-left:3mm solid #333; padding:2mm 3mm; margin:3mm 0; font-size:10.5pt; }
+  h2 { font-size: 11pt; margin:4mm 0 1.5mm; }
+  ul { list-style:none; padding:0; margin:0 0 2mm; }
+  li { padding:1mm 0 1mm 7mm; text-indent:-7mm; border-bottom:.3pt dotted #bbb; }
+  li::before { content:"☐  "; }
+  .esc li::before { content:"⚠  "; color:#b00; }
+  .sub { color:#555; font-size:9pt; }
+  .warn { color:#b00; font-weight:bold; }
+  .role { page-break-after:always; }
+  .role:last-child { page-break-after:auto; }
+  .sig { margin-top:5mm; font-size:9.5pt; }
+  .sig span { display:inline-block; border-bottom:.5pt solid #333; width:40mm; margin-right:7mm; }
+  .rules { background:#f6f6f6; padding:2mm 3mm; font-size:9.5pt; }
+  .report { font-family: Menlo, Courier, monospace; font-size:9pt; background:#f6f6f6; padding:2mm 3mm; white-space:pre; }
+</style></head>
+<body>
+
+<div class="rules">
+<b>GOLDEN RULES — apply to every role, every day</b><br>
+1. Never spend money, place orders, or send messages/emails without Akshat's written OK in chat.
+2. Never edit files outside the folder your task names. Never touch <b>hardware/</b> designs, schematics, or firmware.
+3. Never post anything publicly.
+4. "Draft" means it stays a file for Akshat to review.
+5. Report bad news immediately — same day.
+6. Confused, broken, or not in your card → <b>STOP and report</b>. Do not improvise.
+</div>
+
+<div class="role">
+<h1>Role 1 — Procurement &amp; Logistics Runner</h1>
+<div class="mission"><b>Mission:</b> get the right parts, on time, at list price, tracked.<br><b>You own:</b> bom/ORDER_TRACKER.md — one row per item: part, vendor, order ID, date, ETA, cost, status (to-order / ordered / in-transit / received / short / LATE).</div>
+<h2>Tasks</h2>
+<ul>
+<li><b>T1.1 Place order (supervised)</b> — Akshat gives vendor + cart. You create account, fill address, <b>stop at payment page</b>, hand over. After payment: record order ID + ETA.</li>
+<li><b>T1.2 Track shipments</b> — check in-transit rows 2×/week. Past ETA by 3 days → mark LATE + draft vendor email (don't send).</li>
+<li><b>T1.3 Receive parts</b> — check vs PARTS_LIST quantities. Missing/wrong/damaged → SHORT + photograph. Correct → RECEIVED.</li>
+<li><b>T1.4 Weekly stock snapshot</b> — tracker updated so to-order / ordered / received counts are visible at a glance.</li>
+</ul>
+<h2>Stop and escalate when</h2>
+<ul class="esc">
+<li>Any price changed vs PARTS_LIST</li>
+<li>Any item unavailable / discontinued</li>
+<li>Anything needs payment</li>
+</ul>
+<div class="sig">Name: <span></span> Start date: <span></span> Akshat: <span></span></div>
+</div>
+
+<div class="role">
+<h1>Role 2 — Content &amp; Community Runner</h1>
+<div class="mission"><b>Mission:</b> keep drafts flowing so launch content is ready. <b>Never publish.</b><br><b>You own:</b> marketing/ drafts + marketing/CONTENT_CALENDAR.md.</div>
+<h2>Tasks</h2>
+<ul>
+<li><b>T2.1 Daily 20 min</b> — assigned aquarium groups/forums. Note lighting questions, competitor complaints, price sentiments → marketing/audience_notes.md with date.</li>
+<li><b>T2.2 Photo/video assist</b> — Akshat shoots; you catalog into marketing/media/YYYY-MM-DD_topic/, pick best 5, rename descriptively.</li>
+<li><b>T2.3 Draft queue</b> — keep 3 drafts ahead in the calendar. Flag every <span class="warn">[NEEDS DATA]</span> to Akshat — needs his measurements.</li>
+<li><b>T2.4 DMs/comments (post-launch)</b> — approved answers from marketing/FAQ.md only; anything else stays unanswered and escalated.</li>
+</ul>
+<h2>Stop and escalate when</h2>
+<ul class="esc">
+<li>Anyone asks technical specs, warranty, or safety</li>
+<li>Any complaint or refund request</li>
+<li>Anything argumentative / negative thread about us</li>
+</ul>
+<div class="sig">Name: <span></span> Start date: <span></span> Akshat: <span></span></div>
+</div>
+
+<div class="role">
+<h1>Role 3 — Bench Technician</h1>
+<div class="mission"><b>Mission:</b> physical build + measurement, following written procedures. <b>Powered tests only WITH Akshat present.</b><br><b>You own:</b> hardware/test/TP-XX_log.md entries, component sorting.</div>
+<h2>Tasks</h2>
+<ul>
+<li><b>T3.1 Sort &amp; label parts</b> — per-board kits per PARTS_LIST; report shortages to Procurement.</li>
+<li><b>T3.2 Snap panel</b> — boards snap at mouse-bite tabs; file edges smooth; visual check for exposed copper near holes → photograph anything suspicious.</li>
+<li><b>T3.3 Assembly</b> — follow docs/assembly_guide.md exactly. <span class="warn">LM2596 module (U10): Akshat presets pot to 12.0 V first — never install an unset module.</span></li>
+<li><b>T3.4 Measurements</b> — Akshat powers on; you call out every number from the TP sheet.</li>
+<li><b>T3.5 Log same day</b> — date, board ID, raw numbers into TP log.</li>
+</ul>
+<h2>Never</h2>
+<ul class="esc">
+<li>Power a board alone · change a component value · rework a joint without logging it</li>
+<li>Smell / heat / smoke → power off FIRST, then report</li>
+<li>Any measurement &gt;10% off the test sheet → stop</li>
+</ul>
+<div class="sig">Name: <span></span> Start date: <span></span> Akshat: <span></span></div>
+</div>
+
+<div class="role">
+<h1>Role 4 — Admin &amp; Finance Runner</h1>
+<div class="mission"><b>Mission:</b> keep the paperwork off Akshat's desk.<br><b>You own:</b> business/finance/.</div>
+<h2>Tasks</h2>
+<ul>
+<li><b>T4.1 Invoices/receipts</b> — file as business/finance/YYYY/, named YYYY-MM-DD_vendor_amount.pdf.</li>
+<li><b>T4.2 Spend ledger</b> — business/finance/ledger.md: date, vendor, purpose, amount, link to file.</li>
+<li><b>T4.3 Weekly reminders</b> — chase Akshat on: RSET decision still open? panel order status? parts ETA vs build date?</li>
+</ul>
+<h2>Stop and escalate when</h2>
+<ul class="esc">
+<li>Any spend without a matching written OK from Akshat</li>
+<li>Any tax / GST / legal-looking document</li>
+</ul>
+<div class="sig">Name: <span></span> Start date: <span></span> Akshat: <span></span></div>
+</div>
+
+<h2>Daily report format — everyone, max 6 lines</h2>
+<div class="report">DATE / ROLE
+Done:      &lt;items&gt;
+In progress: &lt;items + ETA&gt;
+Blocked:   &lt;item + what you need&gt;
+Spent:     ₹0 or details
+Question:  &lt;one question max&gt;</div>
+
+</body></html>

@@ -1,0 +1,10 @@
+channel          I_led(mA) rip(mA) fsw(kHz)   duty  tON(ns)  Pin(W)    eta  Pdiode
+White (U1-U4)        249.9    50.7   1276.0  0.765      600    4.59  0.982   0.029
+Red   (U5)           122.0    24.6   1532.0  0.711      464    1.04  0.965   0.018
+Blue  (U6)           303.1    60.9    708.0  0.618      872    2.25  0.945   0.058
+DeepR (U7)           122.0    24.6   1240.0  0.423      341    0.62  0.915   0.035
+
+tON_min after settle: see ton_min per channel (excluded from table for brevity)
+12V rail load: 3.91 W  -> I_out(LM2596) = 0.33 A; LM2596 draws 0.18 A from 24V (eff 92%)
+24V rail total: white 18.37 W + 12V buck 4.25 W = 22.62 W -> I(24V) = 0.94 A
+LRS-35-24 headroom: 13.4 W of 36 W

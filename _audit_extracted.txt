@@ -1,0 +1,280 @@
+=== PAGE 1 ===
+ColorBoost V0 — AL8860 Driver Architecture Audit &
+Corrected BOM
+Source: Diodes AL8860 Datasheet DS39014 Rev.5 (Feb 2022), veriﬁed against original PDF.
+1. Root ﬁnding
+AL8860 is a hysteretic buck. Its own datasheet speciﬁes:
+Recommended duty cycle range: 25%–75%
+Recommended minimum switch ON time for 4% current accuracy: 500 ns
+Recommended max switching frequency: 1.0 MHz
+Δ I (inductor ripple current) is internally ﬁxed at 0.40 × I_LED — not adjustable
+Recommended inductor range: 33–100 µ H
+Using your ordered inductor (Würth 7447783680, 68 µ H, 300 m Ω  DCR) and a single 24 V
+input for all seven strings:
+Channel LED string V_LED Duty t_ON
+(calc)
+f_SW
+(calc)
+Status
+White 3× L150-
+5770500600HH0
+~17.55
+V
+73% ~1097 ns ~679 kHz OK, near duty ceiling
+Red 4× L128-
+RED1003500000
+~8.4 V 35% ~212 ns ~1.73
+MHz
+Fails spec
+Blue 2× L1RX-
+RYL1000000000
+~6.32 V 26% ~474 ns ~600 kHz Marginal
+660 nm 2× L1SP-
+DRD0002800000
+~4.3 V 18% ~168 ns ~1.19
+MHz
+Fails spec, below
+min duty
+Increasing L toward the 100 µ H ceiling does not ﬁx red/660 nm — even at 100 µ H, red's
+t_ON only reaches ~311 ns, still under the 500 ns ﬂoor. The issue is VIN too high relative to
+V_LED for these strings, not inductor sizing.
+2. Corrected rail architecture
+Rail A — 24 V direct: White channel only (4 strings, 3 LEDs each). Duty ~73%, within spec.
+Rail B — 12 V sub-rail (new): Add one small buck pre-regulator (24 V → 12 V, ~2–3 W
+budget) feeding Red, Blue, and 660 nm AL8860 drivers only.
+Recomputed at 12 V:
+=== PAGE 2 ===
+Channel RSET (target
+I_LED)
+Inductor t_ON f_SW Status
+Red 0.82 Ω  (120 mA) 68 µ H (existing part) ~952
+ns
+~759 kHz OK
+Blue 0.33 Ω  (~303
+mA)
+68 µ H (existing part) ~1527
+ns
+~526 kHz
+(approx)
+OK, good
+margin
+660 nm 0.82 Ω  (120 mA) 100 µ H (new part — not
+yet in BOM)
+~638
+ns
+~613 kHz OK
+White channel keeps existing 68 µ H parts and 0.40 Ω  RSET as originally planned.
+3. Other ﬁndings
+CTRL pin buffering (2N7002) is likely unnecessary. Datasheet: CTRL pin is rated for
+direct 3.3 V/5 V logic drive, open-drain or push-pull. Drop the MOSFET stage unless
+there's a speciﬁc isolation reason. If keeping it, verify the exact 2N7002 variant's
+Vgs(th) — generic parts can spec up to 2.5–3 V, marginal at 3.3 V GPIO drive.
+AL8860QMP-13 vs AL8860MP-13. You ordered the Q (automotive-grade) variant.
+Conﬁrm you actually need AEC-Q100 — if not, the standard AL8860MP-13 is very
+likely cheaper at volume. Verify pin/electrical parity against the AL8860Q datasheet
+before substituting.
+White channel duty (73%) is close to the 75% recommended ceiling. The 5.85 V Vf
+ﬁgure is described as "typical at the speciﬁed test condition" — conﬁrm that test
+current in the Luxeon 5050 HE Plus datasheet; if it's quoted at a higher current than
+your 250 mA target, real Vf (and real duty) will be lower, which is a safety margin in
+your favor, but should be conﬁrmed rather than assumed.
+Input capacitor: datasheet's own recommendation is 4.7–10 µ F X7R, which is what
+you have — no change needed. (X7R DC-bias derating is real physics but already
+accounted for in this range per Diodes' own guidance.)
+4. Open items before PCB layout
+1. Source a 24 V→12 V pre-regulator for Rail B (small buck module or second IC — not
+yet speced).
+2. Source a 100 µ H shielded inductor (Rs/DCR comparable to the Würth 68 µ H part) for
+the 660 nm channel only.
+3. Conﬁrm actual Vf of white LEDs at 250 mA from the Luxeon 5050 HE Plus datasheet
+(not the "typical test condition" ﬁgure).
+4. Conﬁrm AL8860 vs AL8860Q pin/electrical parity if switching part numbers.
+5. Bench-verify t_ON/f_SW on red, blue, and 660 nm channels on Rail B once pre-
+regulator is in place — these are calculated values, not yet measured.
+=== PAGE 3 ===
+5. BOM-vs-PCB footprint status (as of 2026-09-12 orders — Mouser
+#281860515, LCSC WM2609030712)
+Status legend: ✅  matches PCB footprint · ⚠  needs veriﬁcation · ❌  conﬁrmed mismatch,
+will not populate as-is
+=== PAGE 4 ===
+Role Part actually ordered Package PCB footprint
+expects
+Status
+Driver IC
+(×7)
+AL8860WT-7 (Diodes,
+LCSC C125330)
+TSOT-25-6 TSOT-25-6
+(AL8860WT-7
+in
+.kicad_pcb )
+✅  Resolved — matches
+now
+Catch diode
+(×7)
+SS310 (LGE, LCSC
+C717452)
+SMC SMA (per layout
+checklist)
+⚠  Conﬁrm — SMC is
+larger than SMA
+White LED
+(×20,
+Mouser)
+MP-5050-240P-50-70 5050 5050 SMD w/
+thermal pad
+(drawn for
+Lumileds
+Luxeon HE
+Plus)
+⚠  Verify pad/thermal-
+pad geometry matches;
+conﬁrm actual CCT (part
+number suggests 5000K,
+not the original 5700K
+target)
+Blue LED
+(×10,
+Mouser)
+XPGDRY-LS-0000-
+00501 (Cree XP-G
+style)
+XP-G
+hex/round,
+center
+thermal pad
+Custom "Rubix-
+style, 4-pad +
+thermal pad"
+footprint
+❌  Conﬁrmed mismatch
+— third different package
+assumed across three
+BOM revisions.
+Source/verify the real
+Cree XP-G footprint and
+redraw.
+Red LED
+(×10,
+LCSC)
+JNJ-L-2835CW-
+66018-S-G1
+(JNJOPTO,
+C22447975)
+SMD2835-2P 2835, 2-pad ✅  Footprint OK — but
+❌  single SKU now covers
+both the former "red" (625
+nm) and "deep red" (660
+nm) roles. Conﬁrm this is
+intentional; original
+design used two distinct
+wavelengths.
+Inductor
+(×7)
+CYH127-68UH (Shou
+Han, LCSC C2929504)
+12.3×12.3
+mm SMD
+7.3×7.3 mm,
+H3.5 (corrected
+for Würth
+7447783680)
+❌  Conﬁrmed mismatch
+— footprint/courtyard too
+small for the part actually
+bought
+Input cap,
+VIN bypass
+(×7)
+T491X226K050AT
+(KEMET, LCSC
+C696800)
+Tantalum,
+Case-X-7343
+1210 ceramic
+X7R
+❌  Conﬁrmed mismatch
++ reliability regression
+(tantalum short-failure
+mode on a switching VIN
+=== PAGE 5 ===
+Role Part actually ordered Package PCB footprint
+expects
+Status
+node). Recommend
+reverting to 22 µ F/50V
+X7R ceramic.
+100 nF
+decoupling
+(×14)
+C0603B104K500NT
+(Torch)
+0603 X7R 0603 ✅  OK
+1 µ F X7R
+(×7)
+CL10B105KA8NNNC
+(Samsung)
+0603 X7R — (new
+addition,
+conﬁrm role)
+⚠  Not in original
+schematic notes —
+conﬁrm what this
+decouples
+Bulk input
+cap
+50YXJ220MT810X16
+(Rubycon)
+THT,
+D10×L16mm
+THT radial 220
+µ F
+✅  OK
+RSET white
+(×4, 0.40 Ω )
+JER2512F3R400
+(JIERR)
+2512, current-
+sense grade,
+3W
+2512 ✅  OK
+RSET
+red/deep-
+red (×2,
+0.82 Ω )
+FRL2512FR820TS
+(FOJAN)
+2512, general
+thick-ﬁlm,
+1W
+2512 ⚠  Not a current-sense-
+grade resistor (worse
+tempco than the JIERR
+parts used elsewhere) —
+acceptable but lower
+accuracy margin on
+channels already tight on
+timing spec
+RSET blue
+(×1, 0.33 Ω )
+JER2512F3R330
+(JIERR)
+2512, current-
+sense grade,
+3W
+2512 ✅  OK
+Pull
+resistors
+(1k/100k,
+×100 each)
+FOJAN / YAGEO 0603 0603 ✅  OK, bulk stock
+Before ordering PCBs, resolve in this order:
+1. Blue LED footprint (XP-G) — full redraw needed, highest layout impact.
+2. Inductor footprint (12.3×12.3mm) — courtyard/clearance rework needed.
+=== PAGE 6 ===
+3. Input cap — recommend reverting to ceramic rather than adapting footprint to
+tantalum.
+4. Conﬁrm red/deep-red single-SKU decision is intentional.
+5. Conﬁrm diode SMC vs SMA footprint.
+6. Conﬁrm white LED actual CCT from a real datasheet, not the part-number suffix
+alone.

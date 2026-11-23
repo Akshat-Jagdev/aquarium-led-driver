@@ -1,0 +1,15 @@
+# KiCad / editor junk
+*.lck
+~$*
+fp-info-cache
+*-backups/
+*.kicad_prl
+
+# incremental dev-patch scripts (gen_pcb.py + verify_netlist.py are the keepers)
+hardware/kicad_project/patch*.py
+
+# local archives / scratch
+hardware/kicad_project.zip
+untitled*/
+.DS_Store
+.history/

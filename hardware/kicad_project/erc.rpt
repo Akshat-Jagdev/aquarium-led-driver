@@ -1,0 +1,1329 @@
+ERC report (2026-09-08T15:22:50, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0001 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0002 Pin 1 [PWR_FLAG, Power output, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0001 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1500.00 mm, 2400.00 mm): Symbol #PWR0002 [PWR_FLAG]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Symbol J1 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TerminalBlock'
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Symbol J1 [Conn_01x02]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(1500.00 mm, 2500.00 mm): Symbol J1 [Conn_01x02]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7000.00 mm): Symbol #PWR0021 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1500.00 mm, 7000.00 mm): Symbol #PWR0021 [+3V3]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7100.00 mm): Symbol #PWR0020 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1500.00 mm, 7100.00 mm): Symbol #PWR0020 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Symbol J6 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Symbol J6 [Conn_01x06]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(1500.00 mm, 7500.00 mm): Symbol J6 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mm, 4000.00 mm): Symbol #PWR0010 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1700.00 mm, 4000.00 mm): Symbol #PWR0010 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mm, 4200.00 mm): Symbol #PWR0009 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(1700.00 mm, 4200.00 mm): Symbol #PWR0009 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4200.00 mm): Symbol U8 Pin 1 [+VIN, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1800.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Symbol F1 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Fuse'
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Symbol F1 [Fuse]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2200.00 mm, 2500.00 mm): Symbol F1 [Fuse]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(2200.00 mm, 4500.00 mm): Symbol U8 [IRM-02-5]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2200.00 mm, 4500.00 mm): Symbol U8 [IRM-02-5]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6200.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Symbol R4 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Vertical Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Symbol R4 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 6300.00 mm): Symbol R4 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6600.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Symbol R3 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Vertical Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Symbol R3 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 6700.00 mm): Symbol R3 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Symbol R2 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Symbol R2 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 7100.00 mm): Symbol R2 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Symbol R1 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Symbol R1 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2500.00 mm, 7500.00 mm): Symbol R1 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600.00 mm, 4000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2700.00 mm, 4000.00 mm): Symbol #PWR0012 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(2700.00 mm, 4000.00 mm): Symbol #PWR0012 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2700.00 mm, 4200.00 mm): Symbol #PWR0011 Pin 1 [+5V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(2700.00 mm, 4200.00 mm): Symbol #PWR0011 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0003 Pin 1 [+24V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0004 Pin 1 [PWR_FLAG, Power output, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0003 [+24V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(2900.00 mm, 2400.00 mm): Symbol #PWR0004 [PWR_FLAG]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Symbol J7 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TerminalBlock'
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Symbol J7 [Conn_01x02]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(2900.00 mm, 2500.00 mm): Symbol J7 [Conn_01x02]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4100.00 mm): Symbol #PWR0013 Pin 1 [+5V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 4100.00 mm): Symbol #PWR0013 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol #PWR0014 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol C3 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol C3 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol C3 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 4200.00 mm): Symbol #PWR0014 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6200.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol R8 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol #PWR0025 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol R8 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol #PWR0025 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 6300.00 mm): Symbol R8 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6600.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol R7 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol #PWR0024 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol R7 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol #PWR0024 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 6700.00 mm): Symbol R7 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol #PWR0023 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol R6 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol R6 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol #PWR0023 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 7100.00 mm): Symbol R6 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7400.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol R5 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol #PWR0022 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol R5 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol R5 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3100.00 mm, 7500.00 mm): Symbol #PWR0022 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3400.00 mm, 4200.00 mm): Symbol #PWR0015 Pin 1 [+5V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3400.00 mm, 4200.00 mm): Symbol #PWR0015 [+5V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3500.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2400.00 mm): Symbol #PWR0005 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3600.00 mm, 2400.00 mm): Symbol #PWR0005 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol #PWR0006 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol C1 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol C1 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol C1 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3600.00 mm, 2500.00 mm): Symbol #PWR0006 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2100.00 mm): Symbol #PWR0030 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3700.00 mm, 2100.00 mm): Symbol #PWR0030 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol C20 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol #PWR0031 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol C20 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol C20 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3700.00 mm, 2200.00 mm): Symbol #PWR0031 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2500.00 mm): Symbol #PWR0032 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3700.00 mm, 2500.00 mm): Symbol #PWR0032 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol C10 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol #PWR0033 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol C10 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol C10 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3700.00 mm, 2600.00 mm): Symbol #PWR0033 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2400.00 mm): Symbol #PWR0007 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3900.00 mm, 2400.00 mm): Symbol #PWR0007 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol C2 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol #PWR0008 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_THT'
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol C2 [CP]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol C2 [CP]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3900.00 mm, 2500.00 mm): Symbol #PWR0008 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol #PWR0017 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol U9 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(3900.00 mm, 4400.00 mm): Symbol #PWR0017 [GND]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(3900.00 mm, 4500.00 mm): Symbol U9 [AMS1117]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(3900.00 mm, 4500.00 mm): Symbol U9 [AMS1117]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 2700.00 mm): Symbol #PWR0026 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(4100.00 mm, 2700.00 mm): Symbol #PWR0026 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 2900.00 mm): Symbol #PWR0027 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(4100.00 mm, 2900.00 mm): Symbol #PWR0027 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4300.00 mm, 4200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4400.00 mm, 4200.00 mm): Symbol #PWR0016 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(4400.00 mm, 4200.00 mm): Symbol #PWR0016 [+3V3]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(4500.00 mm, 3000.00 mm): Symbol U1 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4500.00 mm, 3000.00 mm): Symbol U1 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Symbol J2 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Symbol J2 [Conn_01x06]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4500.00 mm, 7500.00 mm): Symbol J2 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4100.00 mm): Symbol #PWR0018 Pin 1 [+3V3, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(4800.00 mm, 4100.00 mm): Symbol #PWR0018 [+3V3]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol #PWR0019 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol C4 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol C4 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol C4 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(4800.00 mm, 4200.00 mm): Symbol #PWR0019 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 3100.00 mm): Symbol U1 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3000.00 mm): Symbol #PWR0029 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5050.00 mm, 3000.00 mm): Symbol #PWR0029 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Symbol D1 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Symbol D1 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5050.00 mm, 3100.00 mm): Symbol D1 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2100.00 mm): Symbol #PWR0038 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5200.00 mm, 2100.00 mm): Symbol #PWR0038 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol #PWR0039 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol C21 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol C21 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol C21 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5200.00 mm, 2200.00 mm): Symbol #PWR0039 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2500.00 mm): Symbol #PWR0040 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5200.00 mm, 2500.00 mm): Symbol #PWR0040 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol #PWR0041 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol C11 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol C11 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol #PWR0041 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 2600.00 mm): Symbol C11 [C]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5200.00 mm, 3100.00 mm): Symbol L1 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(5200.00 mm, 3100.00 mm): Symbol L1 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5200.00 mm, 3100.00 mm): Symbol L1 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5400.00 mm, 2600.00 mm): Symbol #PWR0028 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5400.00 mm, 2600.00 mm): Symbol #PWR0028 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5400.00 mm, 2700.00 mm): Symbol R10 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(5400.00 mm, 2700.00 mm): Symbol R10 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(5400.00 mm, 2700.00 mm): Symbol R10 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 2700.00 mm): Symbol #PWR0034 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5600.00 mm, 2700.00 mm): Symbol #PWR0034 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 2900.00 mm): Symbol #PWR0035 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(5600.00 mm, 2900.00 mm): Symbol #PWR0035 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(6000.00 mm, 3000.00 mm): Symbol U2 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6000.00 mm, 3000.00 mm): Symbol U2 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 3100.00 mm): Symbol U2 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Symbol J3 Pin 1 [1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Symbol J3 [Conn_01x06]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6500.00 mm, 7500.00 mm): Symbol J3 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3000.00 mm): Symbol #PWR0037 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6550.00 mm, 3000.00 mm): Symbol #PWR0037 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Symbol D2 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Symbol D2 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6550.00 mm, 3100.00 mm): Symbol D2 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2100.00 mm): Symbol #PWR0046 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6700.00 mm, 2100.00 mm): Symbol #PWR0046 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol #PWR0047 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol C22 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol C22 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol #PWR0047 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 2200.00 mm): Symbol C22 [C]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2500.00 mm): Symbol #PWR0048 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6700.00 mm, 2500.00 mm): Symbol #PWR0048 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol #PWR0049 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol C12 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol C12 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol C12 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6700.00 mm, 2600.00 mm): Symbol #PWR0049 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700.00 mm, 3100.00 mm): Symbol L2 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(6700.00 mm, 3100.00 mm): Symbol L2 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6700.00 mm, 3100.00 mm): Symbol L2 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6900.00 mm, 2600.00 mm): Symbol #PWR0036 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(6900.00 mm, 2600.00 mm): Symbol #PWR0036 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6900.00 mm, 2700.00 mm): Symbol R11 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(6900.00 mm, 2700.00 mm): Symbol R11 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(6900.00 mm, 2700.00 mm): Symbol R11 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 2700.00 mm): Symbol #PWR0042 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(7100.00 mm, 2700.00 mm): Symbol #PWR0042 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 2900.00 mm): Symbol #PWR0043 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(7100.00 mm, 2900.00 mm): Symbol #PWR0043 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(7500.00 mm, 3000.00 mm): Symbol U3 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(7500.00 mm, 3000.00 mm): Symbol U3 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 3100.00 mm): Symbol U3 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3000.00 mm): Symbol #PWR0045 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8050.00 mm, 3000.00 mm): Symbol #PWR0045 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Symbol D3 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Symbol D3 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8050.00 mm, 3100.00 mm): Symbol D3 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2100.00 mm): Symbol #PWR0054 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8200.00 mm, 2100.00 mm): Symbol #PWR0054 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol #PWR0055 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol C23 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol C23 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol C23 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8200.00 mm, 2200.00 mm): Symbol #PWR0055 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2500.00 mm): Symbol #PWR0056 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8200.00 mm, 2500.00 mm): Symbol #PWR0056 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol #PWR0057 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol C13 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol C13 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol C13 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8200.00 mm, 2600.00 mm): Symbol #PWR0057 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8200.00 mm, 3100.00 mm): Symbol L3 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(8200.00 mm, 3100.00 mm): Symbol L3 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8200.00 mm, 3100.00 mm): Symbol L3 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8400.00 mm, 2600.00 mm): Symbol #PWR0044 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8400.00 mm, 2600.00 mm): Symbol #PWR0044 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8400.00 mm, 2700.00 mm): Symbol R12 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(8400.00 mm, 2700.00 mm): Symbol R12 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8400.00 mm, 2700.00 mm): Symbol R12 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Symbol J4 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Symbol J4 [Conn_01x06]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(8500.00 mm, 7500.00 mm): Symbol J4 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 2700.00 mm): Symbol #PWR0050 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8600.00 mm, 2700.00 mm): Symbol #PWR0050 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 2900.00 mm): Symbol #PWR0051 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(8600.00 mm, 2900.00 mm): Symbol #PWR0051 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(9000.00 mm, 3000.00 mm): Symbol U4 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9000.00 mm, 3000.00 mm): Symbol U4 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 3100.00 mm): Symbol U4 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3000.00 mm): Symbol #PWR0053 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9550.00 mm, 3000.00 mm): Symbol #PWR0053 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Symbol D4 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Symbol D4 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9550.00 mm, 3100.00 mm): Symbol D4 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2100.00 mm): Symbol #PWR0062 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9700.00 mm, 2100.00 mm): Symbol #PWR0062 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol #PWR0063 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol C24 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol C24 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol C24 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9700.00 mm, 2200.00 mm): Symbol #PWR0063 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2500.00 mm): Symbol #PWR0064 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9700.00 mm, 2500.00 mm): Symbol #PWR0064 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol C14 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol #PWR0065 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol C14 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol C14 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9700.00 mm, 2600.00 mm): Symbol #PWR0065 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9700.00 mm, 3100.00 mm): Symbol L4 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(9700.00 mm, 3100.00 mm): Symbol L4 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9700.00 mm, 3100.00 mm): Symbol L4 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9900.00 mm, 2600.00 mm): Symbol #PWR0052 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(9900.00 mm, 2600.00 mm): Symbol #PWR0052 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9900.00 mm, 2700.00 mm): Symbol R13 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(9900.00 mm, 2700.00 mm): Symbol R13 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(9900.00 mm, 2700.00 mm): Symbol R13 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 2700.00 mm): Symbol #PWR0058 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(10100.00 mm, 2700.00 mm): Symbol #PWR0058 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 2900.00 mm): Symbol #PWR0059 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(10100.00 mm, 2900.00 mm): Symbol #PWR0059 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(10500.00 mm, 3000.00 mm): Symbol U5 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(10500.00 mm, 3000.00 mm): Symbol U5 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7000.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7100.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7200.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7300.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7400.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Horizontal Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Symbol J5 Pin 1 [1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Symbol J5 [Conn_01x06]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(10500.00 mm, 7500.00 mm): Symbol J5 [Conn_01x06]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 3100.00 mm): Symbol U5 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3000.00 mm): Symbol #PWR0061 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11050.00 mm, 3000.00 mm): Symbol #PWR0061 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Symbol D5 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Symbol D5 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11050.00 mm, 3100.00 mm): Symbol D5 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2100.00 mm): Symbol #PWR0070 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11200.00 mm, 2100.00 mm): Symbol #PWR0070 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol #PWR0071 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol C25 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol C25 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol C25 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11200.00 mm, 2200.00 mm): Symbol #PWR0071 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2500.00 mm): Symbol #PWR0072 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11200.00 mm, 2500.00 mm): Symbol #PWR0072 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol #PWR0073 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol C15 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol C15 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol C15 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11200.00 mm, 2600.00 mm): Symbol #PWR0073 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11200.00 mm, 3100.00 mm): Symbol L5 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(11200.00 mm, 3100.00 mm): Symbol L5 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11200.00 mm, 3100.00 mm): Symbol L5 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11400.00 mm, 2600.00 mm): Symbol #PWR0060 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11400.00 mm, 2600.00 mm): Symbol #PWR0060 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11400.00 mm, 2700.00 mm): Symbol R14 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(11400.00 mm, 2700.00 mm): Symbol R14 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(11400.00 mm, 2700.00 mm): Symbol R14 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 2700.00 mm): Symbol #PWR0066 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11600.00 mm, 2700.00 mm): Symbol #PWR0066 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 2900.00 mm): Symbol #PWR0067 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(11600.00 mm, 2900.00 mm): Symbol #PWR0067 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(12000.00 mm, 3000.00 mm): Symbol U6 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12000.00 mm, 3000.00 mm): Symbol U6 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 3100.00 mm): Symbol U6 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12400.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3000.00 mm): Symbol #PWR0069 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12550.00 mm, 3000.00 mm): Symbol #PWR0069 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Symbol D6 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Symbol D6 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12550.00 mm, 3100.00 mm): Symbol D6 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2100.00 mm): Symbol #PWR0078 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12700.00 mm, 2100.00 mm): Symbol #PWR0078 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol #PWR0079 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol C26 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol C26 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol C26 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12700.00 mm, 2200.00 mm): Symbol #PWR0079 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2500.00 mm): Symbol #PWR0080 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12700.00 mm, 2500.00 mm): Symbol #PWR0080 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol #PWR0081 Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol C16 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol C16 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol C16 [C]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12700.00 mm, 2600.00 mm): Symbol #PWR0081 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12700.00 mm, 3100.00 mm): Symbol L6 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(12700.00 mm, 3100.00 mm): Symbol L6 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12700.00 mm, 3100.00 mm): Symbol L6 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12900.00 mm, 2600.00 mm): Symbol #PWR0068 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(12900.00 mm, 2600.00 mm): Symbol #PWR0068 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(12900.00 mm, 2700.00 mm): Symbol R15 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(12900.00 mm, 2700.00 mm): Symbol R15 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(12900.00 mm, 2700.00 mm): Symbol R15 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 2700.00 mm): Symbol #PWR0074 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(13100.00 mm, 2700.00 mm): Symbol #PWR0074 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 2900.00 mm): Symbol #PWR0075 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(13100.00 mm, 2900.00 mm): Symbol #PWR0075 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13100.00 mm, 3100.00 mm): Horizontal Wire, length 100.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    ; warning
+    @(13500.00 mm, 3000.00 mm): Symbol U7 [AL8860]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(13500.00 mm, 3000.00 mm): Symbol U7 [AL8860]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 2700.00 mm): Horizontal Wire, length 500.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 3100.00 mm): Symbol U7 Pin 1 [SW, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(13900.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3000.00 mm): Symbol #PWR0077 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(14050.00 mm, 3000.00 mm): Symbol #PWR0077 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Symbol D7 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Horizontal Wire, length 150.00 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Symbol D7 [D_Schottky]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14050.00 mm, 3100.00 mm): Symbol D7 [D_Schottky]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14200.00 mm, 3000.00 mm): Vertical Wire, length 100.00 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14200.00 mm, 3100.00 mm): Symbol L7 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    ; warning
+    @(14200.00 mm, 3100.00 mm): Symbol L7 [L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14200.00 mm, 3100.00 mm): Symbol L7 [L]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14400.00 mm, 2600.00 mm): Symbol #PWR0076 Pin 1 [+24V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(14400.00 mm, 2600.00 mm): Symbol #PWR0076 [+24V]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14400.00 mm, 2700.00 mm): Symbol R16 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    ; warning
+    @(14400.00 mm, 2700.00 mm): Symbol R16 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'aquarium'
+    ; warning
+    @(14400.00 mm, 2700.00 mm): Symbol R16 [R]
+
+ ** ERC messages: 439  Errors 0  Warnings 439
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

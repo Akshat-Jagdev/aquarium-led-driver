@@ -1,0 +1,22 @@
+** Drc report for aquarium_v0.kicad_pcb **
+** Created on 2026-09-09T00:52:41 **
+** Report includes: Errors, Warnings **
+
+** Found 1 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.0000 mm, 5.0000 mm): Reference field of J1
+    @(10.0000 mm, 6.0000 mm): PTH pad 1 [/VIN_RAW] of J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
